@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    width: 1000px;
+}
+.container {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+}
