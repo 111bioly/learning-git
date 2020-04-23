@@ -5,12 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.26.7",
     "postcss-cli-simple": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "autoprefixer": "postcss src/assets/css/*.css --use autoprefixer -d build/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,4 @@
     "url": "https://github.com/111bioly/learning-git/issues"
   },
   "homepage": "https://github.com/111bioly/learning-git#readme"
-
-  
 }
