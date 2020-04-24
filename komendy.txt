@@ -1,11 +1,23 @@
+//* autoprefixer-cli *//
+
+npm install --global autoprefixer-cli
+npm install --save-dev autoprefixer-cli
 autoprefixer-cli -o style.prefixed.css style.css
+
+
+//* html-validate *//
+
+npm install -g html-validate
+
+htmlvalidate.jsom
 {
-  "extends": [
-    "htmlvalidate:recommended"
-  ],
+  „ rozszerza ” : [ 
+    „ htmlvalidate: zalecane ”
+  ] ,
  
-  "rules": {
-    "close-order": "error"
-    "void": ["warn", {"style": "omit"}]
+  „ zasady ” : { 
+    „ close-order ” : „ error ” 
+    „ void ” : [ „ warn ” , { „ style ” : „ omit ” } ]   
   }
 }
+html-validate index.html
