@@ -11,13 +11,13 @@ npm install -g html-validate
 
 htmlvalidate.jsom
 {
-  „ rozszerza ” : [ 
-    „ htmlvalidate: zalecane ”
-  ] ,
- 
-  „ zasady ” : { 
-    „ close-order ” : „ error ” 
-    „ void ” : [ „ warn ” , { „ style ” : „ omit ” } ]   
+  "extends": [
+    "htmlvalidate:recommended"
+  ],
+   
+  "rules": {
+    "close-order": "error"
+    "void": ["warn", {"style": "omit"}]
   }
 }
 html-validate index.html
